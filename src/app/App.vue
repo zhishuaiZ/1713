@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-  	<div class="hello">456</div>
     <router-view/>
   </div>
 </template>
@@ -12,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+		@import "./reset.css";
+		@import "./iconfont/iconfont.css";
+		
 </style>
