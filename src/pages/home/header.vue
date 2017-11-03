@@ -1,6 +1,6 @@
 <template>
 	  <div>
-		  	<header class="header">
+		  	<header class="header clearfix">
 		  			<a class="header-left">
 			    		<i class="iconfont icon-qunawanxianjiantouzuo"></i>
 			    	</a>
@@ -28,6 +28,7 @@
 
 <style scoped>
 		.header{
+			overflow:hidden;
 			position:relative;
 			width:100%;
 			height:0.88rem;
@@ -73,6 +74,14 @@
 			width: 1.28rem;
 			line-height: .88rem;
 			text-align: left;
+		}
+		.header-right a{
+			display:inline-block;
+			width:.8rem;
+			height:.6rem;
+			white-space:nowrap;
+			overflow:hidden;
+			text-overflow:ellipsis;
 		}
 		.header-right a span {
 			margin-left:.2rem;

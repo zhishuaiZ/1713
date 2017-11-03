@@ -3,6 +3,7 @@ import App from './app/App'
 import router from './router'
 import FastClick from 'fastclick';
 import VueAwesomeSwiper from 'vue-awesome-swiper';
+Vue.use(VueAwesomeSwiper)
 
 FastClick.attach(document.body);
 
