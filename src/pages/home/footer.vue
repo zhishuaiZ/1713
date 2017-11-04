@@ -100,7 +100,6 @@
 		position:relative;
 		padding-top:0.15rem;
 		overflow:hidden;
-		padding-left:3.3rem;
 		width:100%;
 		height:0.3rem;
 	}
@@ -127,11 +126,7 @@
 		height:22px;
 		
 	}
-	
-	
-	
 	.footer_nav{
-		padding-left:2.8rem;
 		width:100%;
 		height:39px;
 		margin-top:0.3rem;
