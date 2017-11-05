@@ -1,19 +1,21 @@
 <template>
 	<div class="weekend">
 		<h2 class="modtitle">周末去哪儿</h2>
-		<div>
-			<div class="product-item" v-for="list in lists" :key="list.id">
-				<a class="fulllink">
-					<div class="product-imgcontainer">
-						<img :src="list.src" alt="" />
-					</div>
-					<div class="product-info">
-						<p class="product-name">{{list.name}}</p>
-						<p class="product-desc">{{list.article}}</p>
-					</div>
-				</a>
+		<router-link to="/page">
+			<div>
+				<div class="product-item" v-for="list in lists" :key="list.id">
+					<a class="fulllink">
+						<div class="product-imgcontainer">
+							<img :src="list.src" alt="" />
+						</div>
+						<div class="product-info">
+							<p class="product-name">{{list.name}}</p>
+							<p class="product-desc">{{list.article}}</p>
+						</div>
+					</a>
+				</div>
 			</div>
-		</div>
+		</router-link>
 	</div>
 </template>
 

@@ -61,6 +61,9 @@
 </template>
 
 <script>
+	
+	import {swiper, swiperSlide} from "vue-awesome-swiper";
+	
 	export default {
 	    data() {
 		    return {
@@ -72,6 +75,10 @@
 			        observeParents: true,
 		        }
 		    }
+	    },
+	    components: {
+	    	swiper,
+	    	swiperSlide
 	    }
 	}
 </script>

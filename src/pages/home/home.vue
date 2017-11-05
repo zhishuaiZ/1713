@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="app">
 		<index-header />
 		<index-swiper />
 		<index-category />
@@ -33,5 +33,7 @@
 </script>
 
 <style scoped>
-
+	.app{
+		overflow:hidden;
+	}
 </style>
